@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { QueryConfig } from "pg";
 import { TDeveloperInfo } from "../interfaces/developers.interface";
-import { client } from "../database/database";
+import { client } from "../database";
 import AppError from "../errors/App.error";
 
 export const verifyDeveloperInfo = async (

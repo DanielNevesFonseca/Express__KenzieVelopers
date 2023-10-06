@@ -1,5 +1,5 @@
 import { QueryConfig } from "pg";
-import { client } from "../database/database";
+import { client } from "../database";
 import {
   TCreateDeveloper,
   TDeveloper,

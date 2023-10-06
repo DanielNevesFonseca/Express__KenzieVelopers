@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { TDeveloperResult } from "../interfaces/developers.interface";
-import { client } from "../database/database";
+import { client } from "../database";
 import AppError from "../errors/App.error";
 
 export const verifyEmail = async (

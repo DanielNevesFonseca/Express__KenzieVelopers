@@ -6,7 +6,7 @@ import {
     developerInfo1,
     developerInfoNotAccepted,
 } from '../../mocks/developerInfo.mock'
-import { client } from '../../../database/database'
+import { client } from '../../../database'
 
 describe('POST - /developers/:id/infos', () => {
     beforeAll(async () => {

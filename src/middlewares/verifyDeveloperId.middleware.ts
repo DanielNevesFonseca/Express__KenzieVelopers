@@ -3,7 +3,7 @@ import {
   TDeveloper,
   TDeveloperResult,
 } from "../interfaces/developers.interface";
-import { client } from "../database/database";
+import { client } from "../database";
 import AppError from "../errors/App.error";
 
 export const verifyDeveloperId = async (

@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { QueryConfig, QueryResult } from "pg";
-import { client } from "../database/database";
+import { client } from "../database";
 import AppError from "../errors/App.error";
 import { TProject } from "../interfaces/projects.interface";
 

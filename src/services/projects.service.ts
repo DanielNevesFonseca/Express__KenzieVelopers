@@ -5,7 +5,7 @@ import {
   TProjectResult,
   TUpdateProjectBody,
 } from "../interfaces/projects.interface";
-import { client } from "../database/database";
+import { client } from "../database";
 import { QueryConfig, QueryResult } from "pg";
 
 export const createProjectService = async (data: TCreateProject) => {
