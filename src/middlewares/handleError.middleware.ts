@@ -1,7 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import AppError from "../errors/App.error";
 
-// TRY CATCH GLOBAL PARA LIDAR COM NOVOS ERROS
 export const handleErrors = (
   error: unknown,
   req: Request,
